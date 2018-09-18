@@ -10,8 +10,8 @@
 [documentation](https://rubydoc.info/gems/gitlab/frames) |
 [gitlab-live](https://github.com/NARKOZ/gitlab-live)
 
-Gitlab is a Ruby wrapper and CLI for the [GitLab API](https://docs.gitlab.com/ce/api/README.html).  
-As of version `4.0.0` this gem only supports Ruby 2.0+ and GitLab API v4.
+Gitlab is a Ruby wrapper and CLI for the [GitLab API](https://docs.gitlab.com/ce/api/README.html).
+As of version `4.0.0` this gem only supports Ruby 2.3+ and GitLab API v4.
 
 ## Installation
 
@@ -176,7 +176,7 @@ gitlab> protect_branch 1 master
 gitlab> create_merge_request 4 "New merge request" "{source_branch: 'new_branch', target_branch: 'master', assignee_id: 42}"
 ```
 
-Web version is available at https://gitlab-live.herokuapp.com  
+Web version is available at https://gitlab-live.herokuapp.com
 For more information, refer to [website](https://narkoz.github.io/gitlab).
 
 ## Development
